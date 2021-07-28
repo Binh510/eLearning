@@ -84,24 +84,33 @@
 
                 &:hover{
                     background-color: $color-black-2;
+                    .overlay{
+                        display: block;
+                    }
                 }
                 .overlay{
-                    display:block;
+                    display:none;
                     background-color:$color-white-0;
                     width: 330px;
                     padding: $pd-3;
                     text-align: center;
                     position: absolute;
-                    top: 50px;
+                    top: 58px;
                     right: 0;
-                    ::before{
+                    border-top: 1px solid $color-gray-1;
+                    box-shadow: 0 4px 16px $color-gray-5;
+                    &::before{
                         display: block;
                         content: '';
                         width: 15px;
                         height: 15px;
                         background-color: $color-white-0;
-                        border:1px solid black;
-                        bo
+                        border-top: 1px solid $color-gray-1;
+                        border-left: 1px solid $color-gray-1;
+                        position: absolute;
+                        top: -9px;
+                        right: 10%;
+                        transform: rotate(45deg);
                     }
 
                 }
