@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAA;EACV,mBAAmB,EAAE,MAAM;CAC9B",
+    "sources": [
+        "../Components/cover.scss"
+    ],
+    "names": [],
+    "file": "cover.css"
+}

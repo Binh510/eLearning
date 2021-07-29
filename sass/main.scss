@@ -1,5 +1,6 @@
 @import './Helpers/variables';
 @import './Helpers/mixin';
+@import './Helpers/extend';
 
 //Vendors
 
@@ -12,7 +13,8 @@
 @import './Layouts/footer';
 
 //Components
-@import './Components/button.scss';
+@import './Components/button';
+@import './Components/cover';
 
 //Pages
 @import './Pages/home';
