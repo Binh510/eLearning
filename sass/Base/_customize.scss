@@ -9,11 +9,20 @@
                 box-shadow: 0 2px 8px 2px $color-black-1;
                 border-radius: 50%;
                 font-size: $fs-5;
+                position: absolute;
+                top: 35%;
+            }
+            &.owl-prev{
+                left: -30px;
+            }
+            &.owl-next{
+                right: -30px;
             }
            
-        }
-    } &:hover{
+            &:hover{
                 background-color: $color-white-0;
                 color:$color-blue-0 ; 
             }
+        }
+    }
 }

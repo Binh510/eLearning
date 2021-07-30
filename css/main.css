@@ -25,9 +25,19 @@ body {
   box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.1);
   border-radius: 50%;
   font-size: 24px;
+  position: absolute;
+  top: 35%;
 }
 
-.owl-carousel:hover {
+.owl-carousel .owl-nav button.owl-prev {
+  left: -30px;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+  right: -30px;
+}
+
+.owl-carousel .owl-nav button:hover {
   background-color: #fff;
   color: #007791;
 }
