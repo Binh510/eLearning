@@ -11,6 +11,10 @@
                 font-size: $fs-5;
                 position: absolute;
                 top: 35%;
+                &:hover{
+                    background-color: $color-white-0;
+                    color:$color-blue-0 ;
+                }
             }
             &.owl-prev{
                 left: -30px;
@@ -18,11 +22,10 @@
             &.owl-next{
                 right: -30px;
             }
-           
-            &:hover{
-                background-color: $color-white-0;
-                color:$color-blue-0 ; 
-            }
-        }
+        }  
     }
 }
+
+    
+       
+

@@ -29,17 +29,17 @@ body {
   top: 35%;
 }
 
+.owl-carousel .owl-nav button.owl-prev:hover, .owl-carousel .owl-nav button.owl-next:hover {
+  background-color: #fff;
+  color: #007791;
+}
+
 .owl-carousel .owl-nav button.owl-prev {
   left: -30px;
 }
 
 .owl-carousel .owl-nav button.owl-next {
   right: -30px;
-}
-
-.owl-carousel .owl-nav button:hover {
-  background-color: #fff;
-  color: #007791;
 }
 
 .myNavBar {
