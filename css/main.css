@@ -17,6 +17,21 @@ body {
   background-color: #fff;
 }
 
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
+  color: #007791;
+  background-color: #fff;
+  width: 44px;
+  height: 44px;
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.1);
+  border-radius: 50%;
+  font-size: 24px;
+}
+
+.owl-carousel:hover {
+  background-color: #fff;
+  color: #007791;
+}
+
 .myNavBar {
   box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
 }
@@ -209,12 +224,60 @@ body {
   font-weight: normal;
 }
 
+.courses {
+  margin: 25px 0;
+}
+
+.courses .courses__content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.courses .courses__content .courses__left {
+  background-color: rgba(20, 23, 28, 0.05);
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.courses .courses__content .courses__left h2 {
+  color: #29303b;
+  font-size: 19px;
+  font-weight: normal;
+  padding-top: 8rem;
+}
+
+.courses .courses__content .courses__left p {
+  color: #29303b;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.courses .courses__content #myTab {
+  margin-bottom: 25px;
+}
+
+.courses .courses__content #myTab .nav-link {
+  color: #29303b;
+  font-size: 15px;
+  font-weight: normal;
+  border: none;
+}
+
+.courses .courses__content #myTab .nav-link.active {
+  border-bottom: 5px solid #007791;
+}
+
+.courses .courses__content #myTab .nav-link:hover {
+  color: #007791;
+}
+
 .button--white {
   color: #686f7a;
   background-color: #fff;
   border: 1px solid #505763;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 601;
   padding: 11px 12px;
   cursor: pointer;
   word-wrap: none;
@@ -231,7 +294,7 @@ body {
   background-color: #ec5252;
   border: 1px solid #ec5252;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 601;
   padding: 11px 12px;
   cursor: pointer;
   word-wrap: none;
@@ -316,5 +379,63 @@ body {
 .cover .cover__content .cover__form .input-group .input-group-append .input-group-text:hover {
   color: #fff;
   background-color: #ec5252;
+}
+
+.card {
+  height: 275px;
+}
+
+.card .card-body {
+  padding: 1rem;
+}
+
+.card .card-body .card-title {
+  color: #29303b;
+  font-size: 15px;
+  font-weight: 601;
+  margin-bottom: 10px;
+}
+
+.card .card-body .card-text {
+  color: #686f7a;
+  font-size: 12px;
+  font-weight: normal;
+  margin: 5px 0;
+}
+
+.card .card-body .card__stars i {
+  color: #F4C150;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.card .card-body .card__stars .card__rate {
+  color: #686f7a;
+  font-size: 13px;
+  font-weight: 601;
+}
+
+.card .card-body .card__stars .card__vote {
+  color: #686f7a;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.card .card-body .card__price {
+  padding: 5px 0;
+  text-align: right;
+}
+
+.card .card-body .card__price .card_price_old {
+  color: #686f7a;
+  font-size: 13px;
+  font-weight: normal;
+  text-decoration: line-through;
+}
+
+.card .card-body .card__price .card_price_low {
+  color: #29303b;
+  font-size: 15px;
+  font-weight: 601;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,36 @@
+.card{
+    height: 275px;
+    .card-body{
+        padding: 1rem;
+        .card-title{
+            @include styleText($color-black-0,$fs-0,$fw-1);
+            margin-bottom: $mg-4;
+        }
+        .card-text{
+            @include styleText($color-gray-0,$fs-1 - 1,$fw-0);
+            margin: $mg-0 0;
+        }
+        .card__stars{
+            i{          
+                @include styleText($color-yellow-0,$fs-1 - 1,$fw-3);
+            }
+            .card__rate{
+                @include styleText($color-gray-0,$fs-1,$fw-1);
+            }
+            .card__vote{
+                @include styleText($color-gray-0,$fs-1,$fw-0); 
+            }
+        }
+        .card__price{
+            padding: $pd-2 0;
+            text-align: right;
+            .card_price_old{
+            @include styleText($color-gray-0,$fs-1,$fw-0);
+            text-decoration: line-through;
+            }
+            .card_price_low{
+            @include styleText($color-black-0,$fs-0,$fw-1);
+            }
+        }
+    }
+}
