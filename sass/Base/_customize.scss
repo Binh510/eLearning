@@ -15,6 +15,9 @@
                     background-color: $color-white-0;
                     color:$color-blue-0 ;
                 }
+                &:focus{
+                    outline: none;
+                }
             }
             &.owl-prev{
                 left: -30px;

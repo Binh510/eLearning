@@ -3,6 +3,10 @@
     .courses__content{
     width: 90%;
     margin: 0 auto;
+    .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
         .courses__left{
             background-color: $color-black-2;
             padding: 0 2rem;
