@@ -304,6 +304,32 @@ body {
   font-size: 26px;
 }
 
+.banner {
+  display: flex;
+  align-items: center;
+  background: url("../img/udemy-logo-semi-transparent.svg") 0/30% no-repeat, linear-gradient(61deg, #6e1a52, #76c5d6 41%);
+  height: 325px;
+  background-blend-mode: overlay;
+  text-align: center;
+}
+
+.banner h2 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.banner p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.banner button {
+  margin: 10px 0;
+}
+
 .button--white {
   color: #686f7a;
   background-color: #fff;
