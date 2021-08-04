@@ -355,6 +355,20 @@ body {
   cursor: pointer;
 }
 
+.students {
+  padding: 32px 0;
+}
+
+.students .students__content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.students .students__content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
 .button--white {
   color: #686f7a;
   background-color: #fff;
@@ -520,5 +534,38 @@ body {
   color: #29303b;
   font-size: 15px;
   font-weight: 601;
+}
+
+.card--feedback {
+  height: 280px;
+}
+
+.card--feedback .card-body {
+  padding: 2rem;
+}
+
+.card--feedback .card-body .card__top {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.card--feedback .card-body .card__top .card__avatar {
+  margin-right: 15px;
+}
+
+.card--feedback .card-body .card__top .card__avatar img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.card--feedback .card-body .card__top .card__name {
+  margin-bottom: 0;
+}
+
+.card--feedback .card-body .card-text {
+  color: #29303b;
+  font-size: 15px;
+  font-weight: normal;
 }
 /*# sourceMappingURL=main.css.map */
