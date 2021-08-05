@@ -238,6 +238,72 @@ body {
   font-weight: normal;
 }
 
+footer {
+  color: #686f7a;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+footer .footer__top {
+  width: 90%;
+  margin: 40px auto;
+}
+
+footer .footer__top ul {
+  height: 110px;
+}
+
+footer .footer__top ul .nav-item {
+  flex-basis: 25%;
+}
+
+footer .footer__top ul .nav-item .nav-link {
+  padding: 0;
+  color: #007791;
+}
+
+footer .footer__top ul .nav-item .nav-link.bold {
+  font-weight: 700;
+}
+
+footer .footer__top .btn-group {
+  display: block;
+}
+
+footer .footer__top .btn-group .button--dropup {
+  min-width: 160px;
+  box-shadow: none;
+}
+
+footer .footer__top .btn-group .button--dropup i {
+  padding: 0 5px;
+}
+
+footer .footer__top .btn-group .button--dropup::after {
+  margin-left: 30%;
+}
+
+footer .footer__top .btn-group .dropdown-menu {
+  font-size: 13px;
+}
+
+footer .footer__bottom {
+  border-top: 1px solid #f7f8fa;
+  width: 90%;
+  margin: 30px auto;
+}
+
+footer .footer__bottom img {
+  width: 110px;
+  margin-right: 10px;
+}
+
+footer .footer__bottom .nav-link {
+  color: #007791;
+  font-size: 13px;
+  font-weight: normal;
+}
+
 .courses {
   margin: 25px 0;
 }
@@ -431,6 +497,23 @@ body {
   color: #fff;
   background-color: #521822;
   border: 1px solid #521822;
+}
+
+.button--dropup {
+  color: #686f7a;
+  background-color: #fff;
+  border: 1px solid #505763;
+  font-size: 13px;
+  font-weight: 601;
+  padding: 6px 10px;
+  cursor: pointer;
+  word-wrap: none;
+}
+
+.button--dropup:hover {
+  color: #29303b;
+  background-color: transparent;
+  border: 1px solid #29303b;
 }
 
 .cover {
