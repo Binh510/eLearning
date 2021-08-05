@@ -369,6 +369,36 @@ body {
   margin-bottom: 20px;
 }
 
+.partners {
+  text-align: center;
+  background-color: #f7f8fa;
+  padding: 20px 0;
+}
+
+.partners .partners__logo {
+  width: 90%;
+  padding: 20px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.partners .partners__items {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.partners .partners__items .partners__detail {
+  max-width: 450px;
+  padding: 20px;
+}
+
+.partners .partners__items .partners__detail h2 {
+  color: #505763;
+  font-size: 19px;
+  font-weight: 601;
+}
+
 .button--white {
   color: #686f7a;
   background-color: #fff;

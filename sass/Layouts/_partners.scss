@@ -1,0 +1,24 @@
+.partners{
+    text-align: center;
+    background-color: $color-white-1;
+    padding: $pd-3 0;
+    .partners__logo{
+        width: 90%;
+        padding: $pd-3 0;
+        margin: 0 auto;
+        display: flex;
+        // align-items: center;
+        justify-content: space-around;
+    }
+    .partners__items{
+        width: 90%;
+        margin: 0 auto;
+        .partners__detail{
+            h2{
+                @include styleText($color-black-light,$fs-3 + 1,$fw-1);
+            }
+            max-width: 450px;
+            padding: $pd-3;
+        }
+    }
+}
