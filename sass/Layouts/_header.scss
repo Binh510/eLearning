@@ -131,6 +131,7 @@
 
     @include responsive("medium"){
         .myNavBar__left{
+            text-align: center;
             .myNavBar__categories, .myNavBar__form-search{
                 display: none;
             }

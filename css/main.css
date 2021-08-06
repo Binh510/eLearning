@@ -238,6 +238,9 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .myNavBar .myNavBar__left {
+    text-align: center;
+  }
   .myNavBar .myNavBar__left .myNavBar__categories, .myNavBar .myNavBar__left .myNavBar__form-search {
     display: none;
   }
