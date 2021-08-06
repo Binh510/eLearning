@@ -89,4 +89,10 @@
             }
         }
     }
+
+    @include responsive("extra-large"){
+        .business, .instructor{
+            display: none;
+        }
+    }
 }

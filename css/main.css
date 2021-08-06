@@ -201,6 +201,12 @@ body {
   background-color: transparent;
 }
 
+@media screen and (max-width: 1200px) {
+  .myNavBar .business, .myNavBar .instructor {
+    display: none;
+  }
+}
+
 .intro {
   padding: 20px;
   background: linear-gradient(-45deg, #ec5252, #6e1a52);
