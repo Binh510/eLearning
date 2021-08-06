@@ -46,6 +46,8 @@
                     }
                 }
                 .overlay{
+                    z-index: 2;
+                    white-space: normal;
                     display:none;
                     background-color:$color-white-0;
                     width: 330px;
@@ -68,6 +70,7 @@
                         top: -9px;
                         right: 10%;
                         transform: rotate(45deg);
+                        
                     }
 
                 }
@@ -82,17 +85,64 @@
                 }
             }
             .myNavBar__buttons{
+                display: flex;
               &:hover{
                   background-color: transparent;
+              }
+              .button--white{
+                  margin-right: $mg-0;
+              }
+              .button{
+                  white-space: nowrap;
               }
 
             }
         }
     }
-
+ 
+     
+    @media screen and (min-width:1200px) and (max-width:1355px) {
+        .myNavBar__right{
+            .navbar-nav{
+                .nav-item{ 
+                    white-space: nowrap;
+                    .nav-link{
+                        font-size: $fs-1 - 1;
+                    }
+                } 
+            }
+        }
+       .myNavBar--reset{
+           padding-left: 0;
+       } 
+    }
+    
+    //max-width:1200px
     @include responsive("extra-large"){
         .business, .instructor{
             display: none;
+        }
+    }
+    .myNavBar__right {
+        .navbar-nav{
+            justify-content: space-between;
+        }
+    }
+
+    @include responsive("medium"){
+        .myNavBar__left{
+            .myNavBar__categories, .myNavBar__form-search{
+                display: none;
+            }
+        }
+        .myNavBar__right{
+            .navbar-nav{
+                align-items: end;
+                .myNavBar__buttons{
+                display: none;
+                }
+            }
+            
         }
     }
 }
