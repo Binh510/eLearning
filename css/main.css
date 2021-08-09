@@ -540,7 +540,7 @@ footer .footer__bottom .nav-link {
 }
 
 .partners .partners__logo {
-  width: 90%;
+  width: 70%;
   padding: 20px 0;
   margin: 0 auto;
   display: flex;
@@ -555,12 +555,37 @@ footer .footer__bottom .nav-link {
 .partners .partners__items .partners__detail {
   max-width: 450px;
   padding: 20px;
+  margin: auto;
 }
 
 .partners .partners__items .partners__detail h2 {
   color: #505763;
   font-size: 19px;
   font-weight: 601;
+}
+
+@media screen and (max-width: 1200px) {
+  .partners .partners__logo {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .partners .partners__logo {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .partners .partners__logo {
+    width: 60%;
+    flex-wrap: wrap;
+  }
+  .partners .partners__logo img {
+    width: 35%;
+    margin: 5px 10px;
+    height: 32px;
+  }
 }
 
 .button--white {
