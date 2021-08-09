@@ -383,7 +383,7 @@ footer .footer__bottom .nav-link {
 
 .courses .courses__content .courses__left {
   background-color: rgba(20, 23, 28, 0.05);
-  padding: 0 2rem;
+  padding: 10px 25px;
   display: flex;
   align-items: center;
 }
@@ -392,7 +392,6 @@ footer .footer__bottom .nav-link {
   color: #29303b;
   font-size: 19px;
   font-weight: normal;
-  padding-top: 8rem;
 }
 
 .courses .courses__content .courses__left p {
@@ -418,6 +417,21 @@ footer .footer__bottom .nav-link {
 
 .courses .courses__content #myTab .nav-link:hover {
   color: #007791;
+}
+
+@media screen and (max-width: 1350px) {
+  .courses .card {
+    height: 275px;
+  }
+  .courses .card .card-body {
+    padding: 1rem;
+  }
+  .courses .card .card-body .card-title {
+    color: #29303b;
+    font-size: 13px;
+    font-weight: 601;
+    margin-bottom: 10px;
+  }
 }
 
 .viewing {

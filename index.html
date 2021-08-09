@@ -172,7 +172,7 @@
         <section class="courses">
             <div class="courses__content">
                 <div class="row">
-                    <div class="col-4 courses__left">
+                    <div class="col-xl-4 col-md-3 col-12 courses__left">
                         <div>
                             <h2>
                                 The world’s largest selection of courses
@@ -180,7 +180,7 @@
                             <p>Choose from over 80,000 online video courses with new additions published every month</p>
                         </div>
                     </div>
-                    <div class="col-8 course__right">
+                    <div class="col-xl-8 col-md-9 col-12 course__right">
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <a class="nav-link active" id="development-tab" data-toggle="tab" href="#dev"
@@ -928,18 +928,22 @@
         <script>
             $('.course__carousel').owlCarousel({
                 loop: true,
-                margin: 15,
+                margin: 5,
                 nav: true,
                 dots: false,
                 responsive: {
                     0: {
-                        items: 1
+                        items: 2
                     },
                     600: {
                         items: 3
                     },
                     1000: {
                         items: 4
+                    },
+                    1450: {
+                        items: 4,
+                        margin: 15
                     }
                 }
             })
@@ -953,13 +957,14 @@
                 dots: false,
                 responsive: {
                     0: {
-                        items: 1
+                        items: 2,
+                        margin: 5
                     },
                     600: {
                         items: 3
                     },
                     1000: {
-                        items: 6
+                        items: 4
                     }
                 }
             })

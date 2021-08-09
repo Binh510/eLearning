@@ -9,12 +9,12 @@
     }
         .courses__left{
             background-color: $color-black-2;
-            padding: 0 2rem;
+            padding: $pd-0 $pd-3 + 5;
             display: flex;
             align-items: center;
             h2{
                 @include styleText($color-black-0, $fs-3 + 1,$fw-0);
-                padding-top: 8rem;
+                // padding-top: 4rem;
             }
             p{
                 @include styleText($color-black-0, $fs-0,$fw-0); 
@@ -32,6 +32,20 @@
                     color: $color-blue-0;
                 }
            
+            }
+        }
+    }
+
+    @include responsive("extra-plus"){
+        .card{
+            height: 275px;
+            .card-body{
+                padding: 1rem;
+                .card-title{
+                    @include styleText($color-black-0,$fs-1,$fw-1);
+                    margin-bottom: $mg-4;
+
+                }
             }
         }
     }
