@@ -434,6 +434,12 @@ footer .footer__bottom .nav-link {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .courses .courses__content .courses__left {
+    padding: 20px;
+  }
+}
+
 .viewing {
   padding: 22px 0;
 }
@@ -445,6 +451,21 @@ footer .footer__bottom .nav-link {
 
 .viewing h2 {
   font-size: 26px;
+}
+
+@media screen and (max-width: 1350px) {
+  .viewing .card {
+    height: 275px;
+  }
+  .viewing .card .card-body {
+    padding: 1rem;
+  }
+  .viewing .card .card-body .card-title {
+    color: #29303b;
+    font-size: 13px;
+    font-weight: 601;
+    margin-bottom: 10px;
+  }
 }
 
 .banner {
@@ -677,6 +698,7 @@ footer .footer__bottom .nav-link {
 
 .card {
   height: 275px;
+  margin-right: 1px;
 }
 
 .card .card-body {

@@ -7,4 +7,18 @@
     h2{
         font-size: $fs-5 + 2;
     }
+    @include responsive("extra-plus"){
+        .card{
+            height: 275px;
+            .card-body{
+                padding: 1rem;
+                .card-title{
+                    @include styleText($color-black-0,$fs-1,$fw-1);
+                    margin-bottom: $mg-4;
+
+                }
+            }
+        }
+    }
+   
 }
