@@ -46,6 +46,72 @@ body {
   right: -30px;
 }
 
+.sidebarMini {
+  position: fixed;
+  right: 0;
+  top: 25%;
+  width: 400px;
+  background-color: #dedfe0;
+  z-index: 100;
+}
+
+.sidebarMini .sidebarMini__button {
+  color: #29303b;
+  background-color: #dedfe0;
+  border: 1px solid #dedfe0;
+  font-size: 24px;
+  font-weight: normal;
+  padding: 5px 20px;
+  cursor: pointer;
+  word-wrap: none;
+  border-radius: 8px 0 0 8px;
+  position: fixed;
+  transform: translateX(-100%);
+}
+
+.sidebarMini .sidebarMini__content {
+  width: 150px;
+  text-align: center;
+  padding: 20px;
+}
+
+.sidebarMini .sidebarMini__content h2 {
+  font-size: 15px;
+}
+
+.sidebarMini .sidebarMini__content .switch {
+  width: 50px;
+  height: 25px;
+  margin: 0 10px;
+  position: relative;
+}
+
+.sidebarMini .sidebarMini__content .switch input {
+  display: none;
+}
+
+.sidebarMini .sidebarMini__content .switch .slider {
+  background-color: rgba(20, 23, 28, 0.25);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 34px;
+}
+
+.sidebarMini .sidebarMini__content .switch .slider::before {
+  content: '';
+  width: 18px;
+  height: 18px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
+}
+
 .myNavBar {
   box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
 }
