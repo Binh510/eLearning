@@ -1026,4 +1026,23 @@ body.darkMode {
 .darkMode .card .card-body .card__price .card_price_low {
   color: #d8e2ef;
 }
+
+.darkMode .categories .categories__content h2 {
+  color: #d8e2ef;
+}
+
+.darkMode .categories .categories__content .categories__items {
+  background-color: #132238;
+  border: 1px solid #344050;
+  box-shadow: 0 3px 1px 0 #152e4d;
+}
+
+.darkMode .categories .categories__content .categories__items:hover {
+  box-shadow: 0 0 3px 2px #152e4d;
+  cursor: pointer;
+}
+
+.darkMode .students .students__content h2 {
+  color: #d8e2ef;
+}
 /*# sourceMappingURL=main.css.map */
