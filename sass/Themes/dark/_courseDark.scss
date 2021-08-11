@@ -1,0 +1,17 @@
+.darkMode{
+    .courses{
+        .courses__content{
+            .courses__left{
+                background-color: $color-dark-5;
+                
+                h2{
+                    color:$color-white-2;
+                }
+                p{
+                    color:$color-dark-3;
+                }
+            }
+        }
+        
+    }
+}

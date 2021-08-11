@@ -11,6 +11,12 @@
             margin-right: 0;
             img{
                 width: 110px;
+                &.logo-white{
+                    display: none;
+                }
+                &.logo-black{
+                    display: inline-block;
+                }
             }
         }
         .myNavBar__categories{

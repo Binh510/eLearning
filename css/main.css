@@ -122,7 +122,7 @@ body {
   display: inline-block;
   position: absolute;
   bottom: 4px;
-  left: 4px;
+  left: 0px;
   transition: .3s;
 }
 
@@ -150,6 +150,14 @@ body {
 
 .myNavBar .myNavBar__left .navbar-brand img {
   width: 110px;
+}
+
+.myNavBar .myNavBar__left .navbar-brand img.logo-white {
+  display: none;
+}
+
+.myNavBar .myNavBar__left .navbar-brand img.logo-black {
+  display: inline-block;
 }
 
 .myNavBar .myNavBar__left .myNavBar__categories {
@@ -897,6 +905,11 @@ footer .footer__bottom .nav-link {
   font-weight: normal;
 }
 
+body.darkMode {
+  color: #9da9bb;
+  background-color: #061325;
+}
+
 .darkMode .sidebarMini {
   background-color: #152e4d;
   color: #fff;
@@ -911,5 +924,65 @@ footer .footer__bottom .nav-link {
 .darkMode .sidebarMini .sidebarMini__content .switch .slider {
   background-color: #061325;
   box-shadow: 0 0 2px 3px #344050;
+}
+
+.darkMode .myNavBar {
+  background-color: #0e1c2f;
+}
+
+.darkMode .myNavBar .myNavBar__left .navbar-brand .logo-black {
+  display: none;
+}
+
+.darkMode .myNavBar .myNavBar__left .navbar-brand .logo-white {
+  display: inline-block;
+}
+
+.darkMode .myNavBar .myNavBar__left .myNavBar__categories {
+  color: #9da9bb;
+}
+
+.darkMode .myNavBar .myNavBar__left .myNavBar__categories i {
+  color: #d8e2ef;
+}
+
+.darkMode .myNavBar .myNavBar__left .input-group {
+  background-color: #152e4d;
+}
+
+.darkMode .myNavBar .myNavBar__left .input-group .form-control::placeholder {
+  color: #d8e2ef;
+}
+
+.darkMode .myNavBar .myNavBar__right .navbar-nav .nav-item:hover {
+  background-color: #152e4d;
+}
+
+.darkMode .myNavBar .myNavBar__right .navbar-nav .nav-item .nav-link {
+  color: #d8e2ef;
+}
+
+.darkMode .myNavBar .myNavBar__right .navbar-nav .nav-item .overlay {
+  background-color: #0e1c2f;
+  color: #9da9bb;
+  border: 1px solid #344050;
+}
+
+.darkMode .myNavBar .myNavBar__right .navbar-nav .nav-item .overlay::before {
+  background-color: #0e1c2f;
+  border-top: 1px solid #344050;
+  border-left: 1px solid #344050;
+}
+
+.darkMode .courses .courses__content .courses__left {
+  background-color: #132238;
+}
+
+.darkMode .courses .courses__content .courses__left h2 {
+  color: #d8e2ef;
+}
+
+.darkMode .courses .courses__content .courses__left p {
+  color: #9da9bb;
 }
 /*# sourceMappingURL=main.css.map */
