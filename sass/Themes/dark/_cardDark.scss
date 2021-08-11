@@ -1,0 +1,31 @@
+.darkMode{
+    .card{
+        background-color:$color-dark-0;
+        border: 1px solid $color-dark-2;
+        .card-body{
+            .card-title{
+                color:$color-white-2;
+            }
+            .card-text{
+                color:$color-dark-3;
+            }
+            .card__stars{
+                .card__rate{
+                    color:$color-white-2;
+                }
+                .card__vote{
+                    color:$color-dark-3;  
+                }
+            }
+            .card__price{
+                .card_price_old{
+                    color:$color-dark-3;
+                }
+                
+                .card_price_low{
+                    color:$color-white-2;
+                }
+            }
+        }
+    }
+}
