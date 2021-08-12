@@ -1,0 +1,31 @@
+.darkMode{
+    footer{
+        color:$color-white-2;
+        .footer__top{
+            ul{
+                .nav-item{
+                    .nav-link{
+                        color:$color-white-2;
+                    }
+                }
+            }
+        }
+        .btn-group{
+            .button--dropup{
+                color: $color-white-2;
+                background-color:$color-dark-0 ;
+                 &:hover{
+                
+                    background-color: $color-dark-5;
+                // border: 1px solid $color-dark-2;
+                }
+            }
+           
+        } 
+        .footer__bottom{
+            .nav-link{
+                color:$color-white-2;
+            }
+        }
+    }
+}

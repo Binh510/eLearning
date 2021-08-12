@@ -1,0 +1,16 @@
+.darkMode{
+    .partners{
+        background-color: $color-dark-5;
+        .partners__items{
+            .border--right.col-12{
+              border-right: 1px solid $color-dark-2;  
+            }
+            .partners__detail{
+                
+                h2{
+                    color: $color-white-2;
+                }
+            }
+        }
+    }  
+}

@@ -1,8 +1,12 @@
 footer{
     @include styleText($color-gray-0,$fs-1,$fw-0);
+   
     .footer__top{
         width: 90%;
-        margin: $mg-7 auto;
+        margin: 0 auto;
+        padding: $pd-4 0;
+        border-bottom: 1px solid $color-white-1;
+     
         ul{
             height: 110px;
             .nav-item{
@@ -34,7 +38,6 @@ footer{
         }
     }
     .footer__bottom{
-        border-top: 1px solid $color-white-1;
         width: 90%;
         margin:$mg-6 - 2 auto;
         img{

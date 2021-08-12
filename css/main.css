@@ -401,7 +401,9 @@ footer {
 
 footer .footer__top {
   width: 90%;
-  margin: 40px auto;
+  margin: 0 auto;
+  padding: 40px 0;
+  border-bottom: 1px solid #f7f8fa;
 }
 
 footer .footer__top ul {
@@ -443,7 +445,6 @@ footer .footer__top .btn-group .dropdown-menu {
 }
 
 footer .footer__bottom {
-  border-top: 1px solid #f7f8fa;
   width: 90%;
   margin: 30px auto;
 }
@@ -642,6 +643,10 @@ footer .footer__bottom .nav-link {
 .partners .partners__items {
   width: 90%;
   margin: 0 auto;
+}
+
+.partners .partners__items .border--right {
+  border-right: 1px solid #dee2e6;
 }
 
 .partners .partners__items .partners__detail {
@@ -1043,6 +1048,39 @@ body.darkMode {
 }
 
 .darkMode .students .students__content h2 {
+  color: #d8e2ef;
+}
+
+.darkMode .partners {
+  background-color: #132238;
+}
+
+.darkMode .partners .partners__items .border--right.col-12 {
+  border-right: 1px solid #344050;
+}
+
+.darkMode .partners .partners__items .partners__detail h2 {
+  color: #d8e2ef;
+}
+
+.darkMode footer {
+  color: #d8e2ef;
+}
+
+.darkMode footer .footer__top ul .nav-item .nav-link {
+  color: #d8e2ef;
+}
+
+.darkMode footer .btn-group .button--dropup {
+  color: #d8e2ef;
+  background-color: #152e4d;
+}
+
+.darkMode footer .btn-group .button--dropup:hover {
+  background-color: #132238;
+}
+
+.darkMode footer .footer__bottom .nav-link {
   color: #d8e2ef;
 }
 /*# sourceMappingURL=main.css.map */
